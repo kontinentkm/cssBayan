@@ -23,20 +23,15 @@
 .accordion-content {
 	max-height: 0;
 	overflow: hidden;
-	transition: max-height 0.5s ease-out;
+	transition: max-height 0.7s ease-out;
 }
  
 .accordion-content img {
 	display: block;
-	max-width: 600px;
+	max-width: 550px;
 	margin: 0 auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
-}
-
-.accordion-title::after {
-	content: "+";
-	float: right;
 }
 
 .accordion-item.active .accordion-title::after,
